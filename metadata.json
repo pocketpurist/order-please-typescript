@@ -1,0 +1,8 @@
+{
+  "name": "Food Group Selector (Light Mode)",
+  "description": "Handheld interface for waitstaff featuring color-coded food group selection, live order sidebar, and kitchen dispatch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #FDFCF8;
+  --ink: #2D2D2A;
+  --accent: #D9480F;
+  --ink-faint: rgba(45, 45, 42, 0.12);
+  --ink-medium: rgba(45, 45, 42, 0.6);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.font-display {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+
+.pos-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ink-medium);
+  font-weight: 700;
+}
